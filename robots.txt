@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jayscreativestudio.com/sitemap.xml
+Sitemap: https://one-true-mission.github.io/jays-creative-studio/sitemap.xml
