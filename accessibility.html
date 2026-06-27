@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessibility | Jay's Creative Studio</title>
+  <meta name="description" content="Jay's Creative Studio is committed to keeping our website accessible to everyone.">
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="https://jayscreativestudio.com/accessibility.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..600&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="">
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html" aria-label="Jay's Creative Studio home">
+        <img src="assets/logo.png" alt="Jay's Creative Studio logo" onerror="this.style.display='none'">
+        <span class="brand-text">
+          <span class="brand-mark">Jay's Creative Studio</span>
+          <span class="brand-sub">Events &middot; Central Texas</span>
+        </span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" data-nav="home">Home</a></li>
+        <li><a href="services.html" data-nav="services">Services</a></li>
+        <li><a href="about.html" data-nav="about">About</a></li>
+        <li><a href="book.html" data-nav="book">Book</a></li>
+      </ul>
+      <a href="book.html" class="nav-cta">Contact</a>
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="nav-backdrop"></div>
+  <aside class="mobile-menu" aria-label="Mobile navigation">
+    <a href="index.html" data-nav="home">Home</a>
+    <a href="services.html" data-nav="services">Services</a>
+    <a href="about.html" data-nav="about">About</a>
+    <a href="book.html" data-nav="book">Book</a>
+    <a href="book.html" class="btn btn-primary">Plan Your Event</a>
+  </aside>
+
+  <section style="padding-top:150px">
+    <div class="container">
+      <div class="legal-body">
+        <span class="eyebrow">Legal</span>
+        <h1>Accessibility</h1>
+        <p class="legal-updated">Last updated: June 27, 2026</p>
+
+        <p>Jay's Creative Studio wants every visitor to be able to use our website and reach us easily. We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.1 at Level AA as a practical standard for accessible design.</p>
+
+        <h2>What We Do</h2>
+        <ul>
+          <li>Use semantic, structured HTML so the site works with screen readers.</li>
+          <li>Write descriptive alt text for meaningful images.</li>
+          <li>Aim for readable color contrast between text and its background.</li>
+          <li>Support keyboard navigation, including the menu and forms.</li>
+          <li>Build a responsive layout that adapts to phones, tablets, and desktops.</li>
+          <li>Respect reduced-motion settings for animations where possible.</li>
+        </ul>
+
+        <h2>Ongoing Effort</h2>
+        <p>Accessibility is something we keep working on. As we add content and features, we test and improve, and we welcome feedback that helps us do better.</p>
+
+        <h2>Third-Party Content</h2>
+        <p>Some tools we use, such as our contact form and embedded content, are provided by third parties. We choose accessible-minded providers, but we cannot fully control their accessibility.</p>
+
+        <h2>Let Us Know</h2>
+        <p>If you run into any trouble using this site, or you need information in another format, please email us at <a href="mailto:hello@jayscreativestudio.com">hello@jayscreativestudio.com</a> and we will help.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="brand-mark">Jay's Creative Studio</span>
+        <span class="brand-sub">Events &middot; Central Texas</span>
+        <p>Choreography, photo booth, custom event merch, and handmade banners for quincea&ntilde;eras, weddings, and every celebration in between.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#choreography">Quince Choreography</a></li>
+          <li><a href="services.html#photo-booth">Photo Booth</a></li>
+          <li><a href="services.html#merch">Custom Event Merch</a></li>
+          <li><a href="services.html#banners">Custom Banners</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="book.html">Book</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in Touch</h4>
+        <ul class="footer-contact">
+          <li><span>Serving Austin &amp; Central Texas</span></li>
+          <li><a href="mailto:hello@jayscreativestudio.com">hello@jayscreativestudio.com</a></li>
+          <li><a href="tel:+15125550143">(512) 555-0143</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>&copy; 2026 Jay's Creative Studio. All rights reserved. &middot;
+        <a href="privacy.html">Privacy</a> &middot;
+        <a href="terms.html">Terms</a> &middot;
+        <a href="accessibility.html">Accessibility</a> &middot;
+        Built by <a href="https://otm-designs.com" target="_blank" rel="noopener">OTM Web Design</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Jay's Creative Studio on Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
